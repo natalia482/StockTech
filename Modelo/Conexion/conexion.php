@@ -1,7 +1,7 @@
 <?php 
 
 	class Db{
-     	private static $dsn = 'mysql:host=localhost;dbname=stocktech';
+     	private static $dsn = 'mysql:host=localhost;dbname=elmanantial';
 
         private static $usuario = 'root'; 
 
