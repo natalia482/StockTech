@@ -25,10 +25,15 @@ ob_end_flush();
     <link rel="stylesheet" href="../diseño/css/style.css">
     <style type="text/css">
       .site-section{
-        background-color: #ffff;;
+        background-color: #ffff;
       }
       .row{
         opacity: 2;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh; 
       }
       .Registro{
         background-color: green;
@@ -43,6 +48,7 @@ ob_end_flush();
       p{
         text-transform: uppercase;
       }
+
     </style>
 </head>
 <body>
@@ -107,7 +113,7 @@ ob_end_flush();
                             </div>
                         </div>
                             <div class="form-group">
-                                <button class="btn btn-primary btn-lg py-3 btn-block" name="insertar" id="insertar">Ingresar Producto</button>
+                                <button class="btn btn-primary btn-lg py-3 btn-block" name="insertar" id="insertar" style="background-color: green;">Ingresar Producto</button>
                             </div>
                     </div>
                 </div>
