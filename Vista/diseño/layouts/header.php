@@ -15,6 +15,7 @@
       }
       nav{
         margin-top:-130px;
+        margin-left: 50px;
         font-family: "Homer Simpson UI";
         font-size: 60px;
         text-align: center;
@@ -26,6 +27,8 @@
         text-align: center;
         color: black;
       }
+      
+      
     </style>  
 
 <header class="site-navbar" role="banner">
@@ -43,7 +46,7 @@
             <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
               <div class="site-logo">
                 <img class="Logo" src="../diseño/images/logo2.png">
-                <a href="menuprincipal.php" class="js-logo-clone">StockTech</a>
+                <a href="menu.php" class="js-logo-clone">StockTech</a>
               </div>
               
             </div>
@@ -51,8 +54,8 @@
             <div class="col-6 col-md-4 order-3 order-md-3 text-right">
               <div class="site-top-icons">
                 <ul>
-                  <li><a href="ClienteFactura.php"><span class="icon icon-view_list"></span></a></li>
-                  <form action="../../CONTROLADOR/CONTROLADORCLIENTE/Logout.php" method="post">
+                  <li><a href="ListaMaterial.php"><span class="icon icon-view_list"></span></a></li>
+                  <form action="../../Controlador/ControladorCliente/ControladorSalir.php" method="post">
                  <div class="form-group">
                             <button class="btn btn-primary " name="salir">SALIR</button>
                             </div>
@@ -66,18 +69,10 @@
       <nav class="site-navigation text-right text-md-center" role="navigation">
         <div class="container">
           <ul class="site-menu js-clone-nav d-none d-md-block">
-            <li><a href="menu.php">Inicio</a></li>
-            <li><a href="Plantasornamentales.php">Inventario</a></li>
+            <li><a href="Menu.php">Inicio</a></li>
+            <li><a href="ListaMaterial.php">Inventario</a></li>
+            <li><a href="RegistrarInventario.php">Agregar</a></li>
           </ul>
         </div>
       </nav>
     </header>
-
-    <div class="bg-light py-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 mb-0"><a href="menuprincipalcliente.php">Inicio</a> <span class="mx-2 mb-0">/</span>
-           <strong class="text-black">Tienda</strong></div>
-        </div>
-      </div>
-    </div>

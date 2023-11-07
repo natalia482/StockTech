@@ -30,7 +30,7 @@
         }
 
         div.row{
-            margin-top:200px;
+            margin-top:10px;
             display: flex;
             justify-content: center;
             }

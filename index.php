@@ -28,7 +28,7 @@
             
 
             .contenido{
-                margin-top:550px;
+                margin-top:200px;
                 display: flex;
                 justify-content: center;
                 }

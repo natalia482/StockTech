@@ -24,9 +24,9 @@ ob_end_flush();
     <link rel="stylesheet" href="../diseño/css/style.css">
 
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="../diseño/css/aos.css">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../diseño/css/style.css">
     <style type="text/css">
       .site-section{
         opacity: 0.2;
