@@ -25,10 +25,15 @@ ob_end_flush();
     <link rel="stylesheet" href="../diseño/css/style.css">
     <style type="text/css">
       .site-section{
-        background-color: #ffff;;
+        background-color: #ffff;
       }
       .row{
         opacity: 2;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh; 
       }
       .Registro{
         background-color: green;
@@ -38,15 +43,15 @@ ob_end_flush();
         text-align: center;
         margin-top: -80px;
       }
-    
 
       p{
         text-transform: uppercase;
       }
+
     </style>
 </head>
 <body>
-    <form action="../../CONTROLADOR/CONTROLADORVENDEDOR/Controlador_Producto.php" method="POST" enctype="multipart/form-data">
+    <form action="Controlador/Controladorcliente/ControladorProductor.php" method="POST" enctype="multipart/form-data">
     <?php include("../../Vista/diseño/layouts/header.php"); ?> 
     <div class="site-section">
     <div class="Registro">
@@ -92,8 +97,8 @@ ob_end_flush();
     
                         <div class="form-group row">
                             <div class="col-md-12">
-                                <label for="c_state_country" class="text-black">Imagen <span class="text-danger">*</span></label>
-                                <input type="file" class="form-control" id="foto" name="foto">
+                                <label for="c_state_country" class="text-black">Cantidad <span class="text-danger">*</span></label>
+                                <input type="number" class="form-control" id="foto" name="foto">
                             </div>
                             <br>
                             <br>
@@ -107,7 +112,7 @@ ob_end_flush();
                             </div>
                         </div>
                             <div class="form-group">
-                                <button class="btn btn-primary btn-lg py-3 btn-block" name="insertar" id="insertar">Ingresar Producto</button>
+                                <button class="btn btn-primary btn-lg py-3 btn-block" name="insertar" id="insertar" style="background-color: green;">Ingresar Producto</button>
                             </div>
                     </div>
                 </div>
