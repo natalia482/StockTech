@@ -43,7 +43,6 @@ ob_end_flush();
         text-align: center;
         margin-top: -80px;
       }
-    
 
       p{
         text-transform: uppercase;
@@ -52,7 +51,7 @@ ob_end_flush();
     </style>
 </head>
 <body>
-    <form action="../../CONTROLADOR/CONTROLADORVENDEDOR/Controlador_Producto.php" method="POST" enctype="multipart/form-data">
+    <form action="Controlador/Controladorcliente/ControladorProductor.php" method="POST" enctype="multipart/form-data">
     <?php include("../../Vista/diseño/layouts/header.php"); ?> 
     <div class="site-section">
     <div class="Registro">
@@ -98,8 +97,8 @@ ob_end_flush();
     
                         <div class="form-group row">
                             <div class="col-md-12">
-                                <label for="c_state_country" class="text-black">Imagen <span class="text-danger">*</span></label>
-                                <input type="file" class="form-control" id="foto" name="foto">
+                                <label for="c_state_country" class="text-black">Cantidad <span class="text-danger">*</span></label>
+                                <input type="number" class="form-control" id="foto" name="foto">
                             </div>
                             <br>
                             <br>
