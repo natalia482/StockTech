@@ -3,20 +3,21 @@
       .Logo{
         width: 150px;
         height:150px;
-        margin-left:15px;
+        margin-left:10px;
       }
       a.js-logo-clone{
         font-family: "Homer Simpson UI";
         font-size: 40px;
         text-align: center;
         color: white;
-        margin-right:1px;
-        color:#006400;
+        margin-right: 1px;
+        color: #006400;
       }
       nav{
-        margin-top:-130px;
-        margin-left: 50px;
+        margin-top:-100px;
+        margin-left: 30px;
         font-family: "Homer Simpson UI";
+        text-shadow: 0.2px 0.2px 1px black;
         font-size: 60px;
         text-align: center;
         color: white;

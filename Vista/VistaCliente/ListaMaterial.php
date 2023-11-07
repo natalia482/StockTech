@@ -31,6 +31,13 @@ ob_end_flush();
       text-transform: uppercase;
 
     }
+    .btn{
+    color: white;
+    font-family: "Homer Simpson UI";
+    background-color: #57C93F;
+    border: 2px solid green;
+    text-shadow: 2px 2px 5px black;
+    }
   </style>
 
   </head>
@@ -56,8 +63,8 @@ ob_end_flush();
       <th scope="col">PRODUCTO</th>
       <th scope="col">NUMERO BOLSA</th>
       <th scope="col">VALOR UNITARIO</th>
+      <th scope="col">CANTIDAD</th>
       <th scope="col">EDITAR</th>
-      <th scope="col">ESTADO</th>
 
     </tr>
   </thead>
@@ -78,16 +85,15 @@ ob_end_flush();
       <th scope="row"><?php echo  number_format($fila['VUNITARIO'],0,'.',',') ; ?></th>
       <th>
         <div class="form-group">
-          <a href="Editarproducto.php?id=<?php echo $fila['IDPRODUCTO'];?>">
-            <button class="btn btn-primary " name="editar">EDITAR</button>
+          <a href="Cantidadproducto.php?id=<?php echo $fila['IDPRODUCTO'];?>">
           </a>
         </div>      
       </th>
       <th>
       <form action="../../CONTROLADOR/CONTROLADORVENDEDOR/AgotarProducto.php?id=<?php echo $fila['IDPRODUCTO'];?>" method="post">
         <div class="form-group">
-          <a href="Listamaterial.php?id=<?php echo $fila['IDPRODUCTO'];?>">
-            <button class="btn btn-primary " name="producto"><?php echo $fila['ESTADO'] ?></button>
+        <a href="Editarproducto.php?id=<?php echo $fila['IDPRODUCTO'];?>">
+            <button class="btn btn-primary " name="editar">EDITAR</button>
           </a>
         </div> 
       </FORM>     
