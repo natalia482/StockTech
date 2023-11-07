@@ -3,9 +3,9 @@
         <div class="row">
           <div class="col-md-6 col-lg-3">
             <div class="block-5 mb-5">
-              <h3 class="footer-heading mb-4">Informacion de contacto</h3>
+              <h3 class="footer-heading mb-4">Información de contacto</h3>
               <ul class="list-unstyled">
-                <li class="address">Chinauta,Cundinamarca</li>
+                <li class="address">Fusagasugá,Cundinamarca</li>
                 <li class="phone"><a href="https://api.whatsapp.com/send?phone=+573217618350">+57 3217618350</a></li>
                 <li class="instagram"><a href="https://www.instagram.com/nataliavillalobos7/?hl=es-la">natalia</a></li>
               </ul>
@@ -19,7 +19,7 @@
          
             Copyright &copy;
             <script></script>
-            <script></script> COMERCIALIZADORA EL MANANTIAL VR <i class="icon-heart" aria-hidden="true"></i>
+            <script></script> STOCK TECH <i class="icon-heart" aria-hidden="true"></i>
         
             </p>
           </div>
