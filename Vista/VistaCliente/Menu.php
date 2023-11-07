@@ -28,10 +28,50 @@ ob_end_flush();
 
     <link rel="stylesheet" href="../diseño/css/style.css">
     <style type="text/css">
-      .site-section{
-        opacity: 0.2;
-        background-color: #006400;
+
+
+
+      .site-section
+      {
+        background-image: url(../diseño/images/4.png);
+                background-repeat: none;
+                background-attachment: scroll;
+                background-size: auto;
       }
+
+      .contenido{
+                margin-top:150px;
+                display: flex;
+                justify-content: center;
+                }
+
+
+                .TITULO{
+                
+                color:white;
+                font-family: "Homer Simpson UI";
+                font-size: 40px;
+                margin-left: -80px;
+                }
+
+                .TITULO2{
+                
+                color:white;
+                font-family: "Homer Simpson UI";
+                font-size: 40px;
+                margin-left: 500px;
+                }
+
+         .SUBTITULO2{
+            color: white;
+            font-family: 'Segoe UI';
+            font-size: 25px;
+            text-align: left;
+            line-height: 100%;
+            margin-left: -80px;
+            margin-top: 90px;
+         }
+
 
       h2{
         color:white;
@@ -43,6 +83,10 @@ ob_end_flush();
       p{
         text-transform: uppercase;
       }
+
+      
+
+
     </style>
   </head>
 <body>
@@ -54,8 +98,11 @@ ob_end_flush();
         <div class="row mb-5">
           <div class="col-md-12 order-2">
             <div class="row">
-              <div class="col-md-12 mb-5">
-                <div class="float-md-left mb-4"><h2 class="text-black h5">TODOS LOS PRODUCTOS</h2></div>
+
+            <h1 class="TITULO">GESTIÓN DEL INVENTARIO </h1>
+            <h1 class="TITULO2">OPCIONES </h1>
+<p class= "SUBTITULO2">STOCK TECH esta diseñado para proporcionar <br> una solución completa de gestión de inventarios <br> para controlar tus existencias y mejorar <br> la eficiencia de tu empresa. <br> <br> Las cantidades se actualizan automáticamente <br> a medida que trabajas. Cada vez que completes <br> una tarea de producción, el inventario se actualiza <br> para facilitar su mantenimiento. <br> </p>
+</h2></div>
               </div>
             </div>
             <div class="row mb-5">
