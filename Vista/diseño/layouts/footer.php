@@ -7,7 +7,7 @@
               <ul class="list-unstyled">
                 <li class="address">Fusagasugá,Cundinamarca</li>
                 <li class="phone"><a href="https://api.whatsapp.com/send?phone=+573217618350">+57 3217618350</a></li>
-                <li class="instagram"><a href="https://www.instagram.com/nataliavillalobos7/?hl=es-la">natalia</a></li>
+                <li class="instagram"><a href="https://www.instagram.com/stocktech1/">StockTech</a></li>
               </ul>
             </div>
 

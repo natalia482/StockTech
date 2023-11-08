@@ -119,17 +119,6 @@ ob_end_flush();
             <h1 class="TITULO2">OPCIONES </h1>
 <p class= "SUBTITULO2">STOCK TECH esta diseñado para proporcionar <br> una solución completa de gestión de inventarios <br> para controlar tus existencias y mejorar <br> la eficiencia de tu empresa. <br> <br> Las cantidades se actualizan automáticamente <br> a medida que trabajas. Cada vez que completes <br> una tarea de producción, el inventario se actualiza <br> para facilitar su mantenimiento. <br> </p>
 </h2></div>
-
-</style>
-</head>
-<body>
-<button class="custom-button">CONTACTANOS</button>
-    <button class="custom-button"><a href="RegistrarInventario.php">AGREGAR AL INVENTARIO</a></button>
-    <button class="custom-button"><a href="ListaMaterial.php">CONOCER EL INVENTARIO</a></button>
-
-</body>
-</html>
-
               </div>
             </div>
             <div class="row mb-5">
