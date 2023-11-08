@@ -25,15 +25,12 @@ ob_end_flush();
     <link rel="stylesheet" href="../diseño/css/style.css">
 
     <style type="text/css">
-
-
-
-      .site-section
+      body
       {
         background-image: url(../diseño/images/4.png);
-                background-repeat: none;
-                background-attachment: scroll;
-                background-size: auto;
+        background-repeat: none;
+        background-attachment: scroll;
+        
       }
 
       .contenido{
@@ -70,25 +67,23 @@ ob_end_flush();
          }
 
          .custom-button {
-    background-color: #94EA66; /* Color de fondo del botón */
-    color: white; /* Color del texto del botón */
-    padding: 10px 20px; /* Tamaño del botón */
-    border: none; /* Sin borde */
-    text-align: center;
-    text-decoration: none;
-    display: block; /* Cambia el display a "block" para que los botones estén uno debajo del otro */
-    font-size: 16px;
-    cursor: pointer; /* Cambia el cursor al pasar por encima */
-    margin-bottom: 10px;
-    font-family: "Homer Simpson UI";
-    font-size: 20px;
-    text-align: right;
-    line-height: 100%;
-    margin-left: 800px;
-    margin-top: -115px;
+          background-color: #94EA66; /* Color de fondo del botón */
+          color: white; /* Color del texto del botón */
+          padding: 10px 20px; /* Tamaño del botón */
+          border: none; /* Sin borde */
+          text-align: center;
+          text-decoration: none;
+          display: block; /* Cambia el display a "block" para que los botones estén uno debajo del otro */
+          font-size: 16px;
+          cursor: pointer; /* Cambia el cursor al pasar por encima */
+          margin-bottom: 10px;
+          font-family: "Homer Simpson UI";
+          font-size: 20px;
+          text-align: right;
+          line-height: 100%;
+          margin-left: 800px;
+          margin-top: -115px;
 }
-
-
       h2{
         color:white;
         font-family: "Homer Simpson UI";
@@ -99,14 +94,8 @@ ob_end_flush();
       p{
         text-transform: uppercase;
       }
-
-      
-
-
-    </style>
-  </head>
-<body>
-  
+</style>
+<body> 
   <div class="site-wrap">
     <?php include("../../Vista/diseño/layouts/header.php"); ?> 
     <div class="site-section text-center ">
@@ -114,48 +103,19 @@ ob_end_flush();
         <div class="row mb-5">
           <div class="col-md-12 order-2">
             <div class="row">
-
             <h1 class="TITULO">GESTIÓN DEL INVENTARIO </h1>
-            <h1 class="TITULO2">OPCIONES </h1>
-<p class= "SUBTITULO2">STOCK TECH esta diseñado para proporcionar <br> una solución completa de gestión de inventarios <br> para controlar tus existencias y mejorar <br> la eficiencia de tu empresa. <br> <br> Las cantidades se actualizan automáticamente <br> a medida que trabajas. Cada vez que completes <br> una tarea de producción, el inventario se actualiza <br> para facilitar su mantenimiento. <br> </p>
-</h2></div>
-              </div>
-            </div>
-            <div class="row mb-5">
-              <?php include('../../Modelo/Conexion/conexion.php');
-              $db=Db::conectar();
-              $resultado = ('SELECT * FROM producto order by IDPRODUCTO DESC') ;
-              $sql = $db->prepare($resultado);
-              $sql->execute();
-              while ($fila = $sql->fetch()) {
-
-                ?>
-                <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
-                  <div class="block-4 text-center border">
-                    <figure class="block-5-image ">
-                      <?php
-                           echo
-                       '<img src="data:image/jpg;base64,
-                            '.base64_encode($fila['IMG']).'"  width=200px height=200px>'?>
-                              
-                    </figure>'
-                    <div class="block-4-text p-1">
-                      <h3><?php echo $fila['NOMPRODUC']; ?></h3>
-                      <p class="mb-0"><?php echo $fila['NUMBOLSA']; ?></p>
-                      <p class="text-primary font-weight-bold">$<?php echo
-                      number_format($fila['VUNITARIO'],0,'.',',');  ?></p>
-                    </div>
-                  </div>
-                </div>
-                <?php } ?>
-              </div>
-            </div>
+            <h1 class="TITULO2">OPCIONES </h1>  
+              <p class= "SUBTITULO2">STOCK TECH esta diseñado para proporcionar <br> una solución completa de gestión de inventarios <br> para controlar tus existencias y mejorar <br> la eficiencia de tu empresa. <br> <br> Las cantidades se actualizan automáticamente <br> a medida que trabajas. Cada vez que completes <br> una tarea de producción, el inventario se actualiza <br> para facilitar su mantenimiento. <br> </p>
           </div>
-        </div>
-        </div>
-        <?php include("../../Vista/diseño/layouts/footer.php"); ?>
-      </div>
-
+      <button class="custom-button">CONTACTANOS</button>
+      <button class="custom-button"><a href="RegistrarInventario.php">AGREGAR AL INVENTARIO</a></button>
+      <button class="custom-button"><a href="ListaMaterial.php">CONOCER EL INVENTARIO</a></button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
@@ -167,4 +127,4 @@ ob_end_flush();
   <script src="js/main.js"></script>
     
 </body>
-</html>
+</html>   
