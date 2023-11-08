@@ -6,6 +6,7 @@ if (!isset($_SESSION['UserCli']) or !isset($_SESSION['pasClie'])){
 }
 ob_end_flush();
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
  <head>
@@ -23,8 +24,9 @@ ob_end_flush();
     <link rel="stylesheet" href="../diseño/css/style.css">
     <link rel="stylesheet" href="../diseño/css/aos.css">
     <link rel="stylesheet" href="../diseño/css/style.css">
+
     <style type="text/css">
-      .site-section{
+    .site-section{
         background-color: #ffff;
       }
       .row{
@@ -33,7 +35,7 @@ ob_end_flush();
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 20vh; 
+         
       }
       .Registro{
         background-color: green;
@@ -47,21 +49,20 @@ ob_end_flush();
       p{
         text-transform: uppercase;
       }
-
-    </style>
+  </style>
 </head>
 <body>
-    <form action="Controlador/Controladorcliente/ControladorProductor.php" method="POST" enctype="multipart/form-data">
+<div class="site-wrap">
     <?php include("../../Vista/diseño/layouts/header.php"); ?> 
-    <div class="site-section">
-    <div class="Registro">
-                   Registro Inventario
-                 </div>
-        <div class="container text-center">
+    <div class="site-section text-center">
+        <div class="container ">
             <div class="row">
                 <div class="col-md-6 mb-5 mb-md-0">
                 <br>
                 <br>
+                <form action="../../Controlador/ControladorCliente/ControladorProducto.php" method="POST" enctype="multipart/form-data">
+
+                    <h2 class="h3 mb-4 text-black text-center">SUBIDA IMAGEN</h2>
                     <div class="p-3 p-lg-5 border">
                         <div class="form-group">
                             <label for="c_country" class="text-black">Tipo de planta <span class="text-danger">*</span></label>
@@ -98,7 +99,7 @@ ob_end_flush();
                         <div class="form-group row">
                             <div class="col-md-12">
                                 <label for="c_state_country" class="text-black">Cantidad <span class="text-danger">*</span></label>
-                                <input type="number" class="form-control" id="foto" name="foto">
+                                <input type="number" class="form-control" id="cantidad" name="cantidad">
                             </div>
                             <br>
                             <br>
@@ -112,8 +113,7 @@ ob_end_flush();
                             </div>
                         </div>
                             <div class="form-group">
-                                <button class="btn btn-primary btn-lg py-3 btn-block" name="insertar" id="insertar" style="background-color: green;">Ingresar Producto</button>
-                            </div>
+                            <button class="btn btn-primary btn-lg py-3 btn-block" name="insertar" id="insertar" style="background-color: green;">Ingresar Producto</button>                            </div>
                     </div>
                 </div>
             </div>

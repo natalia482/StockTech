@@ -82,15 +82,9 @@ ob_end_flush();
       <th scope="row"><?php echo $fila['NOMPRODUC']; ?></th>
       <th scope="row"><?php echo $fila['NUMBOLSA']; ?></th>
       <th scope="row"><?php echo  number_format($fila['VUNITARIO'],0,'.',',') ; ?></th>
+      <th scope="row"><?php echo $fila['CANTIDAD']; ?></th>
       <th>
-        <div class="form-group">
-          <a href="Cantidadproducto.php?id=<?php echo $fila['IDPRODUCTO'];?>">
-          </a>
-        </div>      
-      </th>
-      <th>
-      <form action="../../CONTROLADOR/CONTROLADORVENDEDOR/AgotarProducto.php?id=<?php echo $fila['IDPRODUCTO'];?>" method="post">
-        <div class="form-group">
+      <div class="form-group">
         <a href="Editarproducto.php?id=<?php echo $fila['IDPRODUCTO'];?>">
             <button class="btn btn-primary " name="editar">EDITAR</button>
           </a>
