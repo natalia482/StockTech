@@ -23,10 +23,7 @@
         color: white;
       }
       .site-search-icon{
-        font-family: "Segoe UI";
-        font-size: 60px;
-        text-align: center;
-        color: black;
+        opacity: 0;
       }
       
       
@@ -38,9 +35,9 @@
           <div class="row align-items-center">
 
             <div class="col-6 col-md-4 order-2 order-md-1 site-search-icon text-left">
-              <form action="" class="site-block-top-search">
+              <form action="" method="get" class="site-block-top-search">
                 <span class="icon icon-search2"></span>
-                <input type="text" class="form-control border-0" placeholder="Search">
+                <input type="text" class="form-control border-0" name="search_query" placeholder="Search">
               </form>
             </div>
 
@@ -77,3 +74,4 @@
         </div>
       </nav>
     </header>
+
