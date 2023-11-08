@@ -85,7 +85,7 @@ ob_end_flush();
       <th scope="row"><?php echo $fila['CANTIDAD']; ?></th>
       <th>
       <div class="form-group">
-        <a href="Editarproducto.php?id=<?php echo $fila['IDPRODUCTO'];?>">
+        <a href="EditarProducto.php?id=<?php echo $fila['IDPRODUCTO'];?>">
             <button class="btn btn-primary " name="editar">EDITAR</button>
           </a>
         </div> 
