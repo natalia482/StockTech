@@ -87,23 +87,23 @@
                         
                         <div class="form-group row">
                             <div class="form-group col-md-12">
-                            <strong><label for="tdocumento" class="text-black">CLIENTE<span class="text-danger">*</span></label></strong>
+                            <strong><label for="tdocumento" class="text-black">Cliente<span class="text-danger">*</span></label></strong>
                             <select id="rol"  name="rol" class="form-control">
-                                <strong><option name="rol">CLIENTE</option></strong>
+                                <strong><option name="rol">Cliente</option></strong>
                             </select>
                         </div>
 
                             <div class="col-md-6">
-                                <strong><label for="c_fname" class="text-black">NOMBRE <span class="text-danger">*</span></label></strong>
+                                <strong><label for="c_fname" class="text-black">Nombre <span class="text-danger">*</span></label></strong>
                                 <input type="text" class="form-control" id="name" required name="name" autocomplete="off">
                             </div>
                             <div class="col-md-6">
-                                <strong><label for="c_fname" class="text-black">CIUDAD <span class="text-danger">*</span></label></strong>
+                                <strong><label for="c_fname" class="text-black">Ciudad <span class="text-danger">*</span></label></strong>
                                 <input type="text" class="form-control" id="ciudad" required name="ciudad" autocomplete="off">
                             </div>
 
                             <div class="form-group col-md-12">
-                            <strong><label for="tdocumento" class="text-black">TIPO DE DOCUMENTO <span class="text-danger">*</span></label></strong>
+                            <strong><label for="tdocumento" class="text-black">Tipo de documento <span class="text-danger">*</span></label></strong>
                             <select id="tdocumento"  name="tdocumento" class="form-control">
                                 <strong><option name="tdocumento">C.C</option></strong>   
                                 <strong><option name="tdocumento">T.I</option></strong>
@@ -112,31 +112,31 @@
                         </div>
 
                             <div class="col-md-12">
-                               <strong> <label for="document" class="text-black">NÚMERO DE DOCUMENTO<span class="text-danger">*</span></label></strong>
+                               <strong> <label for="document" class="text-black">N° de documento<span class="text-danger">*</span></label></strong>
                                 <input type="number" class="form-control" id="document" required name="document" autocomplete="off">
                             </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-md-12">
-                                <strong><label for="c_companyname" class="text-black">CORREO ELECTRONICO</label>
+                                <strong><label for="c_companyname" class="text-black">Correo electronico</label>
                                 <input type="text" class="form-control" id="email" required name="email" placeholder="@" autocomplete="off"></strong>
                             </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-md-12">
-                                <strong><label for="c_address" class="text-black">USUARIO <span class="text-danger">*</span></label></strong>
+                                <strong><label for="c_address" class="text-black">Usuario <span class="text-danger">*</span></label></strong>
                                 <input type="text" class="form-control" id="nombre" required name="nombre" >
                             </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-md-12">
-                                <strong><label for="c_address" class="text-black">CONTRASEÑA <span class="text-danger">*</span></label></strong>
+                                <strong><label for="c_address" class="text-black">Contraseña <span class="text-danger">*</span></label></strong>
                                 <input type="password" class="form-control" id="pas" required name="pas" autocomplete="off">
                             </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-md-12">
-                                <strong><label  class="text-black">VALIDAR CONTRASEÑA <span class="text-danger">*</span></label></strong>
+                                <strong><label  class="text-black">Validar contraseña <span class="text-danger">*</span></label></strong>
                                 <input type="password" class="form-control" id="pas2" required name="pas2" autocomplete="off">
                             </div>
                         </div>

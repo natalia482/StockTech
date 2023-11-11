@@ -34,8 +34,9 @@ if (isset($_GET['id'])) {
     <link rel="stylesheet" href="../diseño/css/style.css">
     <link rel="stylesheet" href="../diseño/css/aos.css">
     <link rel="stylesheet" href="../diseño/css/style.css">
-    
-
+    <style type="text/css">
+        
+    </style>
 </head>
 <body>
 

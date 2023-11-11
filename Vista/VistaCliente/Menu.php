@@ -34,56 +34,92 @@ ob_end_flush();
       }
 
       .contenido{
-                margin-top:150px;
-                display: flex;
-                justify-content: center;
-                }
+          margin-top:150px;
+          display: flex;
+          justify-content: center;
+       }
 
 
-                .TITULO{
+       .TITULO{        
+          color:white;
+          font-family: "Homer Simpson UI";
+          font-size: 70px;
+          margin-left: -250px;
+          margin-top: 100px;
+          
+        }
+
+        .TITULO2{
                 
-                color:white;
-                font-family: "Homer Simpson UI";
-                font-size: 40px;
-                margin-left: -80px;
-                }
-
-                .TITULO2{
-                
-                color:white;
-                font-family: "Homer Simpson UI";
-                font-size: 40px;
-                margin-left: 400px;
-                }
+          color:white;
+          font-family: "Homer Simpson UI";
+          font-size: 70px;
+          margin-top:-350px;
+          margin-left: 1000px;
+        }
 
          .SUBTITULO2{
             color: white;
             font-family: 'Segoe UI';
-            font-size: 25px;
+            font-size: 35px;
             text-align: left;
             line-height: 100%;
-            margin-left: -80px;
-            margin-top: 90px;
+            margin-left: -250px;
+            margin-top: 0px;
          }
 
-         .custom-button {
-          background-color: #94EA66; /* Color de fondo del botón */
+         .button1 {
+          background-color: #006400; /* Color de fondo del botón */
           color: white; /* Color del texto del botón */
-          padding: 10px 20px; /* Tamaño del botón */
           border: none; /* Sin borde */
           text-align: center;
           text-decoration: none;
           display: block; /* Cambia el display a "block" para que los botones estén uno debajo del otro */
           font-size: 16px;
           cursor: pointer; /* Cambia el cursor al pasar por encima */
-          margin-bottom: 10px;
-          font-family: "Homer Simpson UI";
-          font-size: 20px;
+          height:60px;
+          width:350px;
+          font-family: 'Segoe UI';
+          font-size: 30px;
           text-align: right;
-          line-height: 100%;
-          margin-left: 800px;
-          margin-top: -115px;
-}
+          margin-left: 1070px;
+          margin-top: -55px;
+
+        
+        }
+          .button2 {
+            background-color: #006400; /* Color de fondo del botón */
+          color: white; /* Color del texto del botón */
+          border: none; /* Sin borde */
+          text-align: center;
+          text-decoration: none;
+          display: block; /* Cambia el display a "block" para que los botones estén uno debajo del otro */
+          font-size: 16px;
+          cursor: pointer; /* Cambia el cursor al pasar por encima */
+          height:60px;
+          width:350px;
+          font-family: 'Segoe UI';
+          font-size: 30px;
+          text-align: right;
+          margin-left: 1070px;
+          margin-top: -165px;}
+          .button3 {
+          background-color: #006400; /* Color de fondo del botón */
+          color: white; /* Color del texto del botón */
+          border: none; /* Sin borde */
+          text-align: center;
+          text-decoration: none;
+          display: block; /* Cambia el display a "block" para que los botones estén uno debajo del otro */
+          font-size: 16px;
+          cursor: pointer; /* Cambia el cursor al pasar por encima */
+          height:60px;
+          width:300px;
+          font-family: 'Segoe UI';
+          font-size: 30px;
+          text-align: right;
+          margin-left: 1070px;
+          margin-top: -255px;}
+
       h2{
         color:white;
         font-family: "Homer Simpson UI";
@@ -100,21 +136,25 @@ ob_end_flush();
     <?php include("../../Vista/diseño/layouts/header.php"); ?> 
     <div class="site-section text-center ">
       <div class="container ">
-        <div class="row mb-5">
-          <div class="col-md-12 order-2">
-            <div class="row">
-            <h1 class="TITULO">GESTIÓN DEL INVENTARIO </h1>
-            <h1 class="TITULO2">OPCIONES </h1>  
-              <p class= "SUBTITULO2">STOCK TECH esta diseñado para proporcionar <br> una solución completa de gestión de inventarios <br> para controlar tus existencias y mejorar <br> la eficiencia de tu empresa. <br> <br> Las cantidades se actualizan automáticamente <br> a medida que trabajas. Cada vez que completes <br> una tarea de producción, el inventario se actualiza <br> para facilitar su mantenimiento. <br> </p>
-          </div>
-      <button class="custom-button">CONTACTANOS</button>
-      <button class="custom-button"><a href="RegistrarInventario.php">AGREGAR AL INVENTARIO</a></button>
-      <button class="custom-button"><a href="ListaMaterial.php">CONOCER EL INVENTARIO</a></button>
+        <div class="row">
+          <h1 class="TITULO">GESTIÓN DEL INVENTARIO </h1>
+          <p class= "SUBTITULO2">
+              STOCK TECH esta diseñado para proporcionar  una <br> 
+              solución completa de gestión de inventarios para <br> 
+              controlar tus existencias y mejorar la eficiencia<br> 
+              de tu empresa. Las cantidades se actualizan <br>
+              automáticamente a medida que trabajas. <br>
+              Cada vez que completes una tarea de producción, el <br>
+              inventario se actualiza para facilitar su mantenimiento. <br> </p>
+          <h1 class="TITULO2">OPCIONES </h1> 
+          <button class="custom-button button1">Contactanos</button>
+          <button class="custom-button button2"><a href="RegistrarInventario.php">Agregar</a></button>
+          <button class="custom-button button3"><a href="ListaMaterial.php">Inventario</a></button>
+       </div>
+      </div>
     </div>
     </div>
-    </div>
-    </div>
-    </div>
+    
     
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>

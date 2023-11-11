@@ -24,7 +24,6 @@ ob_end_flush();
     <link rel="stylesheet" href="../diseño/css/style.css">
     <link rel="stylesheet" href="../diseño/css/aos.css">
     <link rel="stylesheet" href="../diseño/css/style.css">
-
     <style type="text/css">
     .site-section{
         background-color: #ffff;
@@ -43,12 +42,16 @@ ob_end_flush();
         font-family: "Homer Simpson UI";
         font-size: 40px;
         text-align: center;
-        margin-top: -80px;
+        margin-top: -100px;
+        margin-left:-1000px;
+        margin-right:-1500px;
       }
 
       p{
-        text-transform: uppercase;
+        margin-left:-1000px;
+        margin-right:  -500px;
       }
+     
   </style>
 </head>
 <body>
@@ -62,7 +65,7 @@ ob_end_flush();
                 <br>
                 <form action="../../Controlador/ControladorCliente/ControladorProducto.php" method="POST" enctype="multipart/form-data">
 
-                    <h2 class="h3 mb-4 text-black text-center">SUBIDA IMAGEN</h2>
+                   <h2 class="h3 mb-4 text-black text-center Registro"><p>REGISTRAR PRODUCTO</p></h2>
                     <div class="p-3 p-lg-5 border">
                         <div class="form-group">
                             <label for="c_country" class="text-black">Tipo de planta <span class="text-danger">*</span></label>

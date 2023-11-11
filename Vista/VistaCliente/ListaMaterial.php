@@ -34,7 +34,7 @@ ob_end_flush();
     .btn{
     color: white;
     font-family: "Homer Simpson UI";
-    background-color: #57C93F;
+    background-color: #006400;
     border: 2px solid green;
     text-shadow: 2px 2px 5px black;
     }

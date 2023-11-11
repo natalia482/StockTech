@@ -25,7 +25,12 @@
       .site-search-icon{
         opacity: 0;
       }
-      
+      button{
+        background-color:#006400 ;
+        color: white;
+        height:60px;
+        width:100px;
+      }
       
     </style>  
 
@@ -55,8 +60,8 @@
                   <li><a href="ListaMaterial.php"><span class="icon icon-view_list"></span></a></li>
                   <form action="../../Controlador/ControladorCliente/ControladorSalir.php" method="post">
                  <div class="form-group">
-                            <button class="btn btn-primary " name="salir">SALIR</button>
-                            </div>
+                            <button class="btn  " name="salir">Salir</button>
+                    </div>
                   </form>
                 </ul>
               </div> 

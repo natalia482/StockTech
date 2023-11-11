@@ -85,20 +85,20 @@
                     <h2 class="h2">INGRESO CLIENTE</h2>     
                             <div class="form-group ">
                                 <div class="col-md-12">
-                                <strong><label class="label">USUARIO <span class="text-danger">*</span></label></strong> 
+                                <strong><label class="label">Usuario <span class="text-danger">*</span></label></strong> 
                                     <input type="text" class="form-control" id="usuario" name="usuario" autocomplete="off">
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <strong><label  class="label">CONTRASEÑA<span class="text-danger">*</span></label></strong>
+                                <strong><label  class="label">Contraseña<span class="text-danger">*</span></label></strong>
                                 <input type="password" class="form-control" id="pas" name="pas">
                             </div>
                             <div class="col-md-12">
-                                <strong><p class="Registro"><a href="Registrocliente.php">REGISTRARSE</a></p></strong>
+                                <strong><p class="Registro"><a href="Registrocliente.php">Registrarse</a></p></strong>
                             </div>
                         </div>         
                          <div class="btn-group">
-                            <button class="ingresar" name="entrar">INGRESAR</button>
+                            <button class="ingresar" name="entrar">Ingresar</button>
                         </div>
                     </div>
                 </div>
